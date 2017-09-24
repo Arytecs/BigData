@@ -22,7 +22,7 @@ source /vagrant/scripts/common.sh
 #                          que cambiarlo.
 #                          Parámetro opcional.
 #
-# PROBANDO GITHUB ARY
+# PROBANDO GITHUB ARY 2
 # 0) Comprobación previa de parámetros de entrada obligatorios
 # if...
 	echo "Error: falta..."
