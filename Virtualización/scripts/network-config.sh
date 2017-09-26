@@ -22,12 +22,18 @@ source /vagrant/scripts/common.sh
 #                          que cambiarlo.
 #                          Parámetro opcional.
 #
-# PROBANDO GITHUB ARY 2
-# 0) Comprobación previa de parámetros de entrada obligatorios
-# if...
-	echo "Error: falta..."
+# 0) Faltaría a lo mejor especificar mejor qué es lo que falta
+if [[ ! $1 || $2 ]]; then
+	echo "Error: faltan argumentos"
 	exit 1
-# fi
+fi
+
+nombre_host = $1
+IP_host = $2
+
+if [[ $3 ]]; then
+	IP_DNS = $3
+fi
 
 # 1) Establecer nombre de host 
 fqdn="${nombre_host}.${DOMINIO}"
@@ -42,11 +48,11 @@ sudo cp /tmp/nuevo-hosts /etc/hosts
 # 3) Si se ha especificado un servidor DNS en los parámetros de entrada (IP_DNS), 
 #    entonces reconfigurar el cliente DNS:
 # NOTA: Sólo falta la comprobación
-# if...
+if [[ $3 ]]; then
 	sudo nmcli con mod "System eth0" ipv4.ignore-auto-dns yes
 	sudo nmcli con mod "System eth0" ipv4.dns ${IP_DNS}
 	sudo nmcli con mod "System eth0" ipv4.dns-search ${DOMINIO}
-#fi
+fi
 
 # 4) Restablecer la red para reflejar los cambios, y parar el cortafuegos
 sudo systemctl restart network
