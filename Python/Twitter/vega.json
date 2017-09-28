@@ -1,0 +1,307 @@
+{
+  "axes": [],
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "x": "Alaska",
+          "y": 0.0
+        },
+        {
+          "x": "Alabama",
+          "y": 0.04
+        },
+        {
+          "x": "Arkansas",
+          "y": 0.2
+        },
+        {
+          "x": "Arizona",
+          "y": 1.15
+        },
+        {
+          "x": "California",
+          "y": 0.37
+        },
+        {
+          "x": "Colorado",
+          "y": -0.16
+        },
+        {
+          "x": "Connecticut",
+          "y": -0.88
+        },
+        {
+          "x": "Delaware",
+          "y": -1.5
+        },
+        {
+          "x": "Florida",
+          "y": 0.23
+        },
+        {
+          "x": "Georgia",
+          "y": -0.13
+        },
+        {
+          "x": "Hawaii",
+          "y": -0.17
+        },
+        {
+          "x": "Iowa",
+          "y": -0.5
+        },
+        {
+          "x": "Idaho",
+          "y": -1.67
+        },
+        {
+          "x": "Illinois",
+          "y": -0.5
+        },
+        {
+          "x": "Indiana",
+          "y": 1.0
+        },
+        {
+          "x": "Kansas",
+          "y": 0.85
+        },
+        {
+          "x": "Kentucky",
+          "y": 0.47
+        },
+        {
+          "x": "Louisiana",
+          "y": 0.78
+        },
+        {
+          "x": "Massachusetts",
+          "y": -0.02
+        },
+        {
+          "x": "Maryland",
+          "y": 0.41
+        },
+        {
+          "x": "Maine",
+          "y": -1.5
+        },
+        {
+          "x": "Michigan",
+          "y": -0.4
+        },
+        {
+          "x": "Minnesota",
+          "y": -1.0
+        },
+        {
+          "x": "Missouri",
+          "y": 0.0
+        },
+        {
+          "x": "Mississippi",
+          "y": 0.62
+        },
+        {
+          "x": "Montana",
+          "y": 0.0
+        },
+        {
+          "x": "North Carolina",
+          "y": 0.33
+        },
+        {
+          "x": "North Dakota",
+          "y": 0.0
+        },
+        {
+          "x": "Nebraska",
+          "y": 0.12
+        },
+        {
+          "x": "New Hampshire",
+          "y": 2.0
+        },
+        {
+          "x": "New Jersey",
+          "y": 0.15
+        },
+        {
+          "x": "New Mexico",
+          "y": 0.4
+        },
+        {
+          "x": "Nevada",
+          "y": -0.21
+        },
+        {
+          "x": "New York",
+          "y": 0.01
+        },
+        {
+          "x": "Ohio",
+          "y": -0.12
+        },
+        {
+          "x": "Oklahoma",
+          "y": 0.32
+        },
+        {
+          "x": "Oregon",
+          "y": -0.12
+        },
+        {
+          "x": "Pennsylvania",
+          "y": 0.09
+        },
+        {
+          "x": "Rhode Island",
+          "y": 0.17
+        },
+        {
+          "x": "South Carolina",
+          "y": 1.11
+        },
+        {
+          "x": "South Dakota",
+          "y": -1.0
+        },
+        {
+          "x": "Tennessee",
+          "y": 0.22
+        },
+        {
+          "x": "Texas",
+          "y": 0.26
+        },
+        {
+          "x": "Utah",
+          "y": 0.83
+        },
+        {
+          "x": "Virginia",
+          "y": 0.2
+        },
+        {
+          "x": "Vermont",
+          "y": 0.0
+        },
+        {
+          "x": "Washington",
+          "y": 0.08
+        },
+        {
+          "x": "Wisconsin",
+          "y": -0.78
+        },
+        {
+          "x": "West Virginia",
+          "y": 0.29
+        },
+        {
+          "x": "Wyoming",
+          "y": -0.5
+        }
+      ]
+    },
+    {
+      "format": {
+        "feature": "us_states.geo",
+        "type": "topojson"
+      },
+      "name": "states",
+      "transform": [
+        {
+          "as": "value",
+          "default": "noval",
+          "key": "data.properties.NAME",
+          "type": "zip",
+          "with": "table",
+          "withKey": "data.x"
+        },
+        {
+          "test": "d.path!='noval' && d.value!='noval'",
+          "type": "filter"
+        },
+        {
+          "projection": "albersUsa",
+          "scale": 1000,
+          "translate": [
+            480.0,
+            250.0
+          ],
+          "type": "geopath",
+          "value": "data"
+        }
+      ],
+      "url": "us_states.topo.json"
+    }
+  ],
+  "height": 500,
+  "legends": [
+    {
+      "fill": "color",
+      "offset": 0,
+      "properties": {},
+      "title": "Grado de felicidad (m\u00ednimo es -5 y el m\u00e1ximo es 5)"
+    }
+  ],
+  "marks": [
+    {
+      "from": {
+        "data": "states"
+      },
+      "properties": {
+        "enter": {
+          "path": {
+            "field": "path"
+          },
+          "stroke": {
+            "value": "#000000"
+          },
+          "strokeOpacity": {
+            "value": 0.5
+          }
+        },
+        "update": {
+          "fill": {
+            "field": "value.data.y",
+            "scale": "color"
+          }
+        }
+      },
+      "type": "path"
+    }
+  ],
+  "padding": "auto",
+  "scales": [
+    {
+      "domain": [
+        -1.67,
+        -1.15,
+        -0.62,
+        -0.1,
+        0.43,
+        0.95,
+        1.48,
+        2.0
+      ],
+      "name": "color",
+      "range": [
+        "#fff7f3",
+        "#fde0dd",
+        "#fcc5c0",
+        "#fa9fb5",
+        "#f768a1",
+        "#dd3497",
+        "#ae017e",
+        "#7a0177",
+        "#49006a"
+      ],
+      "type": "threshold"
+    }
+  ],
+  "width": 960
+}
