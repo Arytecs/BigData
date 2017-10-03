@@ -236,7 +236,7 @@ Producto escalar entre dos vectores:
 \end{center}
 \end{figure}
 
-Para el producto escalar de vectores con un número mayor o igual a 100 elementos vemos en la figura \ref{fig:fig2} que el script más eficiente en tiempo de ejecución es el que hace uso del tipo de vector de la librería Numpy combinado con la operación de producto matricial, el siguiente más eficiente el script que hace uso del vector como una lista de \textit{Python} y usa un bucle para recorrer los elementos de las listas y por último el menos eficiente es el que hace uso del vector como tipo de vector de la librería \textit{Numpy} y usa un bucle for para recorrer los elementos de estos vectores.
+Para el producto escalar de vectores con un número mayor o igual a 100 elementos vemos en la figura \ref{fig:fig2} que el script más eficiente en tiempo de ejecución es el que hace uso del tipo de vector de la librería \textit{Numpy} combinado con la operación de producto matricial implementado en dicha librería, el siguiente más eficiente el script que hace uso del vector como una lista de \textit{Python} y usa un bucle para recorrer los elementos de las listas y por último el menos eficiente es el que hace uso del vector como tipo de vector de la librería \textit{Numpy} y usa un bucle for para recorrer los elementos de estos vectores.
 
 \begin{figure}[hbt]
 \begin{center}
@@ -246,7 +246,8 @@ Para el producto escalar de vectores con un número mayor o igual a 100 elemento
 \end{center}
 \end{figure}
 
-Se observa que el aumento del tiempo necesario para realizar el producto escalar, a medida que se aumenta el número de elementos de los vectores, tanto con el script que usa el tipo de vector de la librería \textit{Numpy} y un bucle de \textit{Python}, como con el script que trata a los vectores como listas de \textit{Python} y un bucle de \textit{Python}, sigue un tendencia lineal, con la diferencia de que la pendiente del primero de los scripts comentados es más pronunciada que la del segundo script. Mientras que el script que usa el tipo de vector de la librería de \textit{Numpy} y el producto matricial se mantiene más o menos\footnote{Haciendo varias pruebas en algunos casos se ven picos aislados, veasé por ejemplo la figura \ref{fig:fig3}, aunque estos picos siguen estando por debajo del tiempo que requieren los otros dos scripts para llevar a cabo la operación.} constante rozando el tiempo de computo 0.
+Se observa que el aumento del tiempo necesario para realizar el producto escalar, a medida que se aumenta el número de elementos de los vectores, tanto con el script que usa código puro de \textit{Python} combinado con \textit{Numpy}, como con el script que usa código puro de \textit{Python} sigue una tendencia lineal, con la diferencia de que la pendiente del primero de los scripts comentados es más pronunciada que la del segundo script. Mientras que el script que usa sólo código \textit{Python} se mantiene más o menos\footnote{Haciendo varias pruebas en algunos casos se ven picos aislados, veasé por ejemplo la figura \ref{fig:fig3}, aunque estos picos siguen estando por debajo del tiempo que requieren los otros dos scripts para llevar a cabo la operación.} constante rozando el tiempo de cómputo 0.
+
 
 \subsection{Tercer apartado}
 
@@ -275,9 +276,9 @@ Producto matricial entre un vector y una matriz:
 \end{center}
 \end{figure}
 
-Para el producto matricial de una matriz por un vector o viceversa tomando el numero $n$ de elementos del vector como 100 o más y las dimensiones de la matriz como $n \times n$, vemos en la figura \ref{fig:fig4} que el script más eficiente en tiempo de ejecución es el que hace uso del tipo de vector de la librería \textit{Numpy} combinado con la operación de producto matricial, el siguiente más eficiente el script que hace uso del vector y matriz como listas de \textit{Python} y usa un bucle para recorrer los elementos de las listas y por último el menos eficiente es el que hace uso del vector y matriz como tipo de vector o matriz (arrays) de la librería \textit{Numpy} y usa un bucle for para recorrer los elementos de estos vectores.
+Para el producto matricial de una matriz por un vector o viceversa tomando el numero $n$ de elementos del vector como 100 o más y las dimensiones de la matriz como $n \times n$, vemos en la figura \ref{fig:fig4} que el script más eficiente en tiempo de ejecución es el que hace uso del tipo de vector de la librería \textit{Numpy} combinado con la operación de su mismo producto matricial, el siguiente más eficiente el script que hace uso del vector y matriz como listas de \textit{Python} y usa un bucle para recorrer los elementos de las listas y por último el menos eficiente es el que hace uso del vector y matriz como tipo de vector o matriz (arrays) de la librería \textit{Numpy} y usa un bucle for para recorrer los elementos de estos vectores.
 
-Se observa que el aumento del tiempo necesario para realizar el producto escalar, a medida que se aumenta el valor $n$ de elementos del vector y dimensiones de la matriz $n \times n$, tanto con el script que usa el tipo de vector de la librería \textit{Numpy} y un bucle de \textit{Python}, como con el script que trata a los vectores como listas de \textit{Python} y un bucle de \textit{Python}, sigue un tendencia exponencial, con la diferencia de que la base del exponente de la tendencia del primero de los scripts comentados es mayor que la base del exponente de la tendencia del segundo, siendo la tendencia del segundo script comentado casi lineal. Mientras que el script que usa el tipo de vector de la librería de \textit{Numpy} y el producto matricial se mantiene constante rozando el tiempo de computo 0.
+Se observa que el aumento del tiempo necesario para realizar el producto escalar, a medida que se aumenta el valor $n$ de elementos del vector y dimensiones de la matriz $n \times n$, tanto con el script que usa código \textit{Python} combinado con la librería \textit{Numpy}, como con el script que usa código puro de \textit{Python}, sigue un tendencia exponencial, con la diferencia de que la base del exponente de la tendencia del primero de los scripts comentados es mayor que la base del exponente de la tendencia del segundo, siendo la tendencia del segundo script comentado casi lineal. Mientras que el script que usa simplemente código de la librería de \textit{Numpy} se mantiene constante rozando el tiempo de cómputo 0.
 
 \subsection{Cuarto apartado}
 
@@ -306,9 +307,20 @@ Producto matricial entre un vector y una matriz:
 \end{center}
 \end{figure}
 
-Para el producto matricial de dos matrices cuadradas $n \times n$, siendo $n$ mayor o igual a 100, vemos en la figura \ref{fig:fig5} que el script más eficiente en tiempo de ejecución es el que hace uso del tipo de matriz de la librería \textit{Numpy} combinado con la operación de producto matricial, el siguiente más eficiente es el script que trata a ambas matrices como listas de \textit{Python} y usa un bucle para recorrer los elementos de las listas y por último el menos eficiente es el que hace uso de ambas matrices como tipo de matrices de la librería \textit{Numpy} y usa un bucle for para recorrer los elementos de estas matrices.
+Para el producto matricial de dos matrices cuadradas $n \times n$, siendo $n$ mayor o igual a 100, vemos en la figura \ref{fig:fig5} que el script más eficiente en tiempo de ejecución es el que hace uso del tipo de matriz de la librería \textit{Numpy} combinado con la operación de producto matricial de esta misma librería, el siguiente más eficiente es el script que trata a ambas matrices como listas de \textit{Python} y usa un bucle para recorrer los elementos de las listas y por último el menos eficiente es el que hace uso de ambas matrices como tipo de matrices de la librería \textit{Numpy} y usa un bucle for para recorrer los elementos de estas matrices. En la Figura \ref{fig:fig6} podemos ver, que esto sigue siendo así aunque el tamaño del vector sea pequeño, aunque, al contrario que en los otros casos, la diferencia es bastante menor.
 
-Se observa que el aumento del tiempo necesario para realizar el producto matricial, a medida que se aumenta el valor $n$ de las dimensiones de las matrices, tanto con el script que usa el tipo de vector de la librería \textit{Numpy} y un bucle de \textit{Python}, como con el script que trata a los vectores como listas de \textit{Python} y un bucle de \textit{Python}, sigue un tendencia exponencial, con la diferencia de que la base del exponente de la tendencia del primero de los scripts comentados es mayor que la base del exponente de la tendencia del segundo. Mientras que el script que usa el tipo de matrices de la librería de \textit{Numpy} y el producto matricial se mantiene constante rozando el tiempo de computo 0.
+\begin{figure}[hbt]
+\begin{center}
+	\includegraphics[width=1\textwidth]{42.png}
+	\caption{Comparativa de los tiempos de ejecución de los tres scripts.}
+	\label{fig:fig6}
+\end{center}
+\end{figure}
+
+Se observa que el aumento del tiempo necesario para realizar el producto matricial, a medida que se aumenta el valor $n$ de las dimensiones de las matrices, tanto con el script que combina la librería \textit{Python} con código puro, como con el script que usa sólo código puro de \textit{Python}, sigue un tendencia exponencial, con la diferencia de que la base del exponente de la tendencia del primero de los scripts comentados es mayor que la base del exponente de la tendencia del segundo. Mientras que el script que usa la librería de \textit{Numpy} tanto para la definición de las matrices como para el producto de ellas se mantiene constante rozando el tiempo de cómputo 0.
+
+\subsection{Conclusión}
+Como hemos podido comprobar, siempre que usemos la librería \textit{Numpy} para todo el cálculo será mucho más eficiente en tiempo de ejecución. Pero si vamos a usar código puro de \textit{Python} para realizar algún cálculo, es mejor que también definamos las variables dejando \textit{Python} de lado, ya que la diferencia es bastante notable en todos los casos.
 
 \section{Segunda tarea}
 
@@ -329,7 +341,27 @@ Escribir un código en \textit{Python} que:
 \subsection{Resolución}
 
 \begin{figure}[hbt]
-	\includegraphics[width=1\textwidth]{11.png}
+\begin{center}
+	\includegraphics[width=1\textwidth]{task2.png}
+	\caption{Poner caption!!!!!!!!!!!!!!!}
+	\label{fig:fig7}
+\end{center}
 \end{figure}
 
+Comenzamos el ejercicio llamando a la función subprocess.call para que cada vez que ejecutemos el ejercicio, nos genere un sistema nuevo.
+Al ejecutarlo nos genera lo siguiente
+
+\begin{equation}
+\[
+	\left(
+		\begin{array}{ccccc}
+			3  & 14 & 18 & 14 & 9 \\
+			11 & 3  & 12 & 2  & 0 \\
+			1  & 17 & 15 & 7  & 12 \\
+			8  & 8  & 0  & 18 & 13 \\
+			18 & 19 & 9  & 1  & 10 \\
+		\end{array}
+	\right)
+\]
+\end{equation}
 \end{document} 
