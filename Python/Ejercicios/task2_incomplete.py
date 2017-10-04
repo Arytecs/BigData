@@ -9,6 +9,6 @@ subprocess.call(["python", "equation-system-generator.py"])
 A,b = MyEquation.load_equation_system( 'system.txt' )
 print(A,b)
 #numpy.linalg.solve --> Nos devuelve la solución de una equación 
-lineal de matrices de la forma Ax=b
+#lineal de matrices de la forma Ax=b
 x = numpy.linalg.solve(A, b)
 print( "Solution: ", x )

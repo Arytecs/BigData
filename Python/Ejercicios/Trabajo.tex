@@ -343,25 +343,83 @@ Escribir un código en \textit{Python} que:
 \begin{figure}[hbt]
 \begin{center}
 	\includegraphics[width=1\textwidth]{task2.png}
-	\caption{Poner caption!!!!!!!!!!!!!!!}
+	\caption{Resolución Ejercicio}
 	\label{fig:fig7}
 \end{center}
 \end{figure}
 
-Comenzamos el ejercicio llamando a la función subprocess.call para que cada vez que ejecutemos el ejercicio, nos genere un sistema nuevo.
-Al ejecutarlo nos genera lo siguiente
+Comenzamos el ejercicio llamando a la función \textit{subprocess.call} para que cada vez que ejecutemos el ejercicio, nos genere un sistema nuevo.
+Al ejecutarlo nos genera la \textbf{Ecuación (\ref{Eq1})}
+
 
 \begin{equation}
-\[
+		\left(
+			\begin{array}{ccccc}
+				14  & 15 & 7 & 11 & 15 \\
+				2 & 15  & 0 & 18  & 19 \\
+				14  & 13 & 16 & 9  & 9 \\
+				17  & 9  & 10  & 6 & 5 \\
+				9 & 4 & 0  & 8  & 2 \\
+			\end{array}
+		\right)
+		\times
+		\left(
+			\begin{array}{c}
+				x_1 \\
+				x_2 \\
+				x_3 \\
+				x_4 \\
+				x_5 \\
+			\end{array}
+		\right)
+		=
+		\left(
+			\begin{array}{c}
+				223 \\
+				124 \\
+				236 \\
+				203 \\
+				77 \\
+			\end{array}
+		\right)
+\label{Eq1}
+	\end{equation}
+
+donde la solución a dicha ecuación es \textbf{(\ref{Eq2})}
+
+\begin{equation}
 	\left(
-		\begin{array}{ccccc}
-			3  & 14 & 18 & 14 & 9 \\
-			11 & 3  & 12 & 2  & 0 \\
-			1  & 17 & 15 & 7  & 12 \\
-			8  & 8  & 0  & 18 & 13 \\
-			18 & 19 & 9  & 1  & 10 \\
+		\begin{array}{c}
+			x_1 \\
+			x_2 \\
+			x_3 \\
+			x_4 \\
+			x_5 \\
 		\end{array}
 	\right)
-\]
+	=
+	\left(
+		\begin{array}{c}
+			7 \\
+			1 \\
+			5 \\
+			0 \\
+			5 \\
+		\end{array}
+	\right)
+	\label{Eq2}
 \end{equation}
+
+Una vez tenemos cargados los datos, los convertimos a vectores n-dimensionales de la librería de \textit{Numpy} y resolvemos la ecuación con la función \textit{numpy.linalg.solve}
+Comprobando con los datos que me había devuelto el fichero txt generado, vemos en la \textbf{Figura \ref{fig:fig8}} siguiente que el vector devuelto es el mismo que vemos en \textbf{(\ref{Eq2})} con un margen de error apenas notable.
+
+
+\begin{figure}
+\begin{center}
+	\includegraphics[width=1\textwidth]{23.png}
+	\caption{Resultados}
+	\label{fig:fig8}
+\end{center}
+\end{figure}
+
 \end{document} 
