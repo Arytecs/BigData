@@ -1,0 +1,28 @@
+---
+title: "Ejercicio"
+output: html_document
+---
+
+Cargamos datos. Hay que añadir el parámetro sep ya que de lo contrario encuentra errores. Una vez cargado lo guardamos en formato RData y a partir de ahí para cargar los datos solo tenemos que hacer el load.
+```{r}
+Data.Jaen<-read.table("JaenIndicadores.txt", sep="\t", header = T, fileEncoding = "latin1", na.strings = c("..", "-", ""))
+#load("Datos.Jaen.RData")
+#Andalucia<-read.table("Andalucia.txt", sep = "\t")
+```
+
+Cambiamos el nombre a las variables
+```{r}
+colnames(Data.Jaen)<-c("CodigoINE", "Municipio", "ConsumoEE", "ConsumoAguaInv", "ConsumoAguaVer", "ResiduosSolidosDest", "ResiduosSolidosCant", "Poblacion")
+```
+
+Vemos de qué trata estos datos con un summary
+```{r}
+summary(Data.Jaen)
+```
+
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

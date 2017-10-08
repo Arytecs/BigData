@@ -1,0 +1,98 @@
+CodigoINE	Municipio	Consumo de energía eléctrica	Consumo de agua. Invierno	Consumo de agua. Verano	Residuos sólidos urbanos: Destino	Residuos sólidos urbanos: Cantidad	Población
+23001	Albanchez de Mágina	2165	298	400	Vertedero controlado	370,49	1474
+23002	Alcalá la Real	93991	4882	6342	Compostaje	6774,11	21523
+23003	Alcaudete	34985	1537	2633	Compostaje	3680,95	11261
+23004	Aldeaquemada	853	123	500	Vertedero controlado	113,53	573
+23005	Andújar	139971	8896	10326	Vertedero controlado	11775,5	37903
+23006	Arjona	12576	1134	2542	Vertedero controlado	1222,79	5696
+23007	Arjonilla	8425	799	1260	Vertedero controlado	881,69	3951
+23008	Arquillos	4830	385	480	Vertedero controlado	379,17	1921
+23009	Baeza	77039	3041	3965	Vertedero controlado	4838,56	15276
+23010	Bailén	89827	3909	4500	Vertedero controlado	5417,04	17672
+23011	Baños de la Encina	5990	546	920	Vertedero controlado	540,05	2700
+23012	Beas de Segura	16605	631	784	Vertedero controlado	1839,31	8061
+23014	Begíjar	6443	634	755	Vertedero controlado	609,24	3161
+23015	Bélmez de la Moraleda	3472	402	512	Vertedero controlado	452,2	1964
+23016	Benatae	863	160	282	Vertedero controlado	119,84	565
+23017	Cabra del Santo Cristo	4548	455	994	Vertedero controlado	514,54	2229
+23018	Cambil	5606	572	988	Compostaje	787,29	3063
+23019	Campillo de Arenas	4153	424	720	Compostaje	507,42	2119
+23020	Canena	7480	550	650	Vertedero controlado	406,62	2117
+23021	Carboneros	1511	135	172	Vertedero controlado	140,93	683
+23024	Carolina (La)	55865	3825	4690	Vertedero controlado	3355,56	15029
+23025	Castellar	11245	753	1400	Vertedero controlado	724,34	3684
+23026	Castillo de Locubín	7540	1026	1330	Compostaje	1274	5036
+23027	Cazalilla	1281	170	220	Vertedero controlado	174,04	826
+23028	Cazorla	14857	1849	3680	Vertedero incontrolado	2014,09	8394
+23029	Chiclana de Segura	2263	223	368	Vertedero controlado	332,51	1317
+23030	Chilluévar	2649	254	264	Vertedero incontrolado	385,53	1818
+23031	Escañuela	1979	183	228	Vertedero controlado	230	948
+23032	Espelúy	3388	159	198	Vertedero controlado	159,45	770
+23033	Frailes	3100	341	560	Compostaje	422,14	1858
+23034	Fuensanta de Martos	5536	582	1100	Compostaje	758,35	3340
+23035	Fuerte del Rey	2325	242	415	Compostaje	262,5	1194
+23037	Génave	1036	150	210	Vertedero controlado	160,04	674
+23038	Guardia de Jaén (La)	9279	374	480	Compostaje	399,43	2029
+23039	Guarromán	15343	572	680	Vertedero controlado	569,82	2804
+23040	Lahiguera	2764	384	480	Vertedero controlado	429,27	1893
+23041	Higuera de Calatrava	1322	103	117	Compostaje	161,42	691
+23042	Hinojares	463	100	300	Vertedero incontrolado	121,61	493
+23043	Hornos	1618	141	388	Vertedero controlado	157,68	702
+23044	Huelma	13051	1210	1597	Compostaje	1322,99	6054
+23045	Huesa	4118	559	671	Vertedero incontrolado	513,64	2741
+23046	Ibros	7372	627	732	Vertedero controlado	615,15	3063
+23047	Iruela (La)	4872	399	1290	Vertedero incontrolado	414,11	1853
+23048	Iznatoraf	2511	254	435	Vertedero controlado	249,53	1283
+23049	Jabalquinto	7281	504	720	Vertedero controlado	500,63	2533
+23050	Jaén	349561	-	-	Compostaje	39197,5	111406
+23051	Jamilena	5442	865	1013	Compostaje	693,56	3344
+23052	Jimena	2945	315	468	Vertedero controlado	371,6	1546
+23053	Jódar	19446	2446	3000	Vertedero controlado	3782,13	11979
+23054	Larva	839	105	240	Vertedero incontrolado	133,81	516
+23055	Linares	208179	-	-	Vertedero controlado	19030,8	57796
+23056	Lopera	8717	800	1100	Vertedero controlado	879,02	3993
+23057	Lupión	5671	210	324	Vertedero controlado	228,04	1052
+23058	Mancha Real	45104	2024	2740	Compostaje	1873,6	9270
+23059	Marmolejo	23608	1686	2057	Vertedero controlado	1628,24	7431
+23060	Martos	127098	5470	6300	Compostaje	6727,53	22702
+23061	Mengíbar	66977	1912	2363	Vertedero controlado	1803,24	8360
+23062	Montizón	3504	392	459	Vertedero controlado	395,58	1974
+23063	Navas de San Juan	12300	1012	1237	Vertedero controlado	1199,64	5066
+23064	Noalejo	3433	488	616	Compostaje	532,58	2231
+23065	Orcera	3893	321	760	Vertedero controlado	476,39	2204
+23066	Peal de Becerro	12396	1066	1412	Vertedero incontrolado	1192,74	5176
+23067	Pegalajar	10447	618	740	Compostaje	679,97	3085
+23069	Porcuna	15960	1492	1788	Vertedero controlado	1565,45	7042
+23070	Pozo Alcón	8321	1319	1704	Vertedero incontrolado	1350,59	5483
+23071	Puente de Génave	3676	396	527	Vertedero controlado	406,81	1979
+23072	Puerta de Segura (La)	4970	529	1024	Vertedero controlado	566,07	2654
+23073	Quesada	11660	1211	1753	Vertedero incontrolado	1461,47	6033
+23074	Rus	8359	757	820	Vertedero controlado	728,09	3753
+23075	Sabiote	10468	857	1558	Vertedero controlado	958,06	4181
+23076	Santa Elena	2781	200	570	Vertedero controlado	214,25	1019
+23077	Santiago de Calatrava	1716	185	240	Compostaje	223,76	911
+23079	Santisteban del Puerto	11173	1115	1675	Vertedero controlado	1117,48	4826
+23080	Santo Tomé	5981	473	820	Vertedero incontrolado	516,2	2332
+23081	Segura de la Sierra	4484	518	650	Vertedero controlado	457,08	2159
+23082	Siles	4311	549	1116	Vertedero controlado	580,26	2567
+23084	Sorihuela del Guadalimar	2148	263	600	Vertedero controlado	276,73	1301
+23085	Torreblascopedro	7945	576	1140	Vertedero controlado	595,44	2992
+23086	Torre del Campo	24704	3265	3760	Compostaje	2516,17	13327
+23087	Torredonjimeno	70860	3461	3550	Compostaje	4304,4	13848
+23088	Torreperogil	17431	1650	2400	Vertedero controlado	1687,69	7266
+23090	Torres	7256	366	496	Vertedero controlado	431,94	1773
+23091	Torres de Albánchez	1397	50	89	Vertedero controlado	221,94	1020
+23092	Úbeda	116120	8128	10233	Vertedero controlado	9808,81	32764
+23093	Valdepeñas de Jaén	6701	898	1080	Compostaje	1017,07	4501
+23094	Vilches	23331	2144	2898	Vertedero controlado	1125,5	4989
+23095	Villacarrillo	32354	2404	3302	Vertedero controlado	2598,77	11073
+23096	Villanueva de la Reina	30407	613	730	Vertedero controlado	761,46	3308
+23097	Villanueva del Arzobispo	26077	1909	2177	Vertedero controlado	1904,77	8691
+23098	Villardompardo	1996	252	380	Compostaje	284,55	1246
+23099	Villares (Los)	11384	1001	1440	Compostaje	1012,39	4772
+23101	Villarrodrigo	841	121	216	Vertedero controlado	145,26	446
+23901	Cárcheles	5761	312	624	Compostaje	361,14	1528
+23902	Bedmar y Garcíez	9126	656	1340	Vertedero controlado	774,82	3253
+23903	Villatorres	13410	867	904	Vertedero controlado	766,52	4336
+23904	Santiago-Pontones	6004	836	1177	Vertedero incontrolado	1129,95	4338
+23905	Arroyo del Ojanco	..			..	..	..
