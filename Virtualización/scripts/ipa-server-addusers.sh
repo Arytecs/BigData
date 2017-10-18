@@ -27,11 +27,35 @@ source /vagrant/scripts/common.sh
 
 # 0) Comprobación previa de parámetros de entrada obligatorios
 
+if [[ ! $1 ]]
+then
+	echo "Error: fich_usuarios no introducido."
+	exit 1
+fi
+
 # 1) Comprobamos la existencia del fichero de usuarios (relativo al directorio
 #    actual "./scripts/") y en caso contrario salimos con error.
 
+cd ..
+cd ..
+cd vagrant/scripts/
+
+if [[ ! -a $1 ]]
+then
+	echo "Error: fich_usuarios no existe."
+	exit 1
+fi
+
 # 2) Comprobamos la existencia del dominio IPA (solicitando un tique Kerberos
 #    para admin@ADMON.LAB) y en caso contrario salimos con error.
+
+echo ${PASSWD_ADMIN} | kinit "admin@${DOMINIO_KERBEROS}" 2>/dev/null 1>/dev/null
+
+if [[ "$?" != "0" ]]
+then
+   	echo "Error: No existe el dominio IPA."
+	exit 1
+fi
 
 # 3) Procesamos el fichero CSV:
 #
@@ -39,9 +63,31 @@ source /vagrant/scripts/common.sh
 #  Comprobamos si el usuario ya existe, mediante la orden
 #     ipa user-show ${login_name} 
 #  y en caso contradio lo creamos, mediante la orden
-#     ipa user-add ${login_name} --first ${Nombre} --last $ {Apellidos} --password
-#
-#
+#     ipa user-add ${login_name} --first ${Nombre} --last $ {Apellidos} --password 
+
+oldIFS=$IFS     # conserva el separador de campo
+IFS=$'\n'     # nuevo separador de campo, el caracter fin de línea
+
+for linea in $(cat $1)
+do
+	login_name=${linea%%,*}
+	aux=${linea#"$login_name,"}
+	password=${aux%%,*}
+	aux=${aux#"$password,"}
+	Nombre=${aux%,*}
+	Apellidos=${aux#*,}
+
+	ipa user-show ${login_name}
+
+	if [[ "$?" != "0" ]]
+	then
+		echo ${password} | ipa user-add ${login_name} --first ${Nombre} --last ${Apellidos} --password
+	fi
+	
+done
+
+IFS=$old_IFS
+
 
 
 

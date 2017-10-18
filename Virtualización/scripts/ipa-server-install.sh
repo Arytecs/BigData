@@ -19,25 +19,29 @@ source /vagrant/scripts/common.sh
 #
 
 # 0) Comprobación previa de parámetros de entrada obligatorios
-# if...
-	echo "Error: falta..."
+if [ ! $1 ]
+then
+	echo "Error: nombre_host no introducido"
 	exit 1
-# fi
+fi
+
+nombre_host=$1
 
 fqdn="${nombre_host}.${DOMINIO}"
 
 # 1) Comprobamos si los paquetes necesarios están instalados, y en caso contrario los instalamos:
+
 packages="ipa-server bind bind-dyndb-ldap ipa-server-dns"
-#if ... (comprobar si no están instalados ya)
-	sudo yum -y install $packages
-#fi
+
+sudo yum -y install $packages
 
 # 2) Comprobamos si el dominio IPA está creado (solicitando un tique kerberos para
 #    el administrador), y en caso contrario lo creamos:
 echo ${PASSWD_ADMIN} | kinit "admin@${DOMINIO_KERBEROS}" 2>/dev/null 1>/dev/null
+
 if [[ "$?" != "0" ]]
 then
-   	# INSTALAR el servidor IPA (instalación desatendida)
+   	ipa-server-install -a ${PASSWD_ADMIN} -p ${PASSWD_ADMIN} --hostname=${fqdn} -r ${DOMINIO_KERBEROS} -n ${DOMINIO} --setup-dns --no-forwarders -U
 fi
 
 

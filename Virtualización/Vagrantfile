@@ -6,50 +6,54 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "sl1" do |sl1|
 
-#     sl1.vm.network "private_network", ip: "XX.XX.XX.XX", auto_config: true
+     sl1.vm.network "private_network", ip: "192.168.100.10", auto_config: true
 
      sl1.vm.provider "virtualbox" do |v|
         v.name = "ipa-sl1"
-	# Memoria: 1024
-	# Núcleos: 2
+	v.memory = 2048
+	v.cpus = 2
      end
 
      sl1.vm.provision "network-config", type: "shell" do |s|
-	     s.path = "scripts/network-config.sh"
-	     s.args = "'vagrant' '192.168.100.0'"
+	s.path = "scripts/network-config.sh"
+	s.args = "'sl1' '192.168.100.10'"     
      end
 
-   #  sl1.vm.provision "ipa-server-install", type: "shell" do |s|
-	     # Instalación del servidor IPA
-	     # argumentos??
-   #  end
-   #  sl1.vm.provision "ipa-server-addusers", type: "shell" do |s|
-	     # Añadir usuarios al servidor IPA 
-	     # argumentos??
-   #  end
+     sl1.vm.provision "ipa-server-install", type: "shell" do |s|
+        s.path = "scripts/ipa-server-install.sh"
+	s.args = "'sl1'" 
+     end
+     sl1.vm.provision "ipa-server-addusers", type: "shell" do |s|
+	s.path = "scripts/ipa-server-addusers.sh"
+	s.args = "usuarios.csv" 
+     end
   end	
 
 
   # SOLUCION BASICA: Configurar un único cliente "cl1"
   # MEJORA: Hacer un bucle de 1 a MAX_CLIENTS para configurar varios clientes
 
-    #config.vm.define "cl1" do |cli|
-#       cli.vm.network "private_network", ip: "XX.XX.XX.XX", auto_config: true
+    MaxClients=4
+    ListClients=1..MaxClients
+    (ListClients).each do |i|
 
-       #cli.vm.provider "virtualbox" do |v|
-          #v.name = "ipa-cl1"
-	  # Memoria: 512
-	  # Núcleos: 1
-       #end
+      config.vm.define "cl#{i}" do |cli|
+         cli.vm.network "private_network", ip: "192.168.100.1#{i}", auto_config: true
 
-       #cli.vm.provision "network-config", type: "shell" do |s|
-	        # Configuración de red del cliente 
-		# (mismo script que en el servidor, pero distintos argumentos!!)
-       #end
-       #cli.vm.provision "ipa-client-install", type: "shell" do |s|
-	       # Instalación del cliente IPA
-       #end
-    #end
-  #end	
-end
+         cli.vm.provider "virtualbox" do |v|
+            v.name = "ipa-cl#{i}"
+	    v.memory = 512
+	    v.cpus = 1
+         end
+  
+         cli.vm.provision "network-config", type: "shell" do |s|
+	    s.path = "scripts/network-config.sh"
+	    s.args = "'cl#{i}' '192.168.100.1#{i}' '192.168.100.10'" 
+         end
+         cli.vm.provision "ipa-client-install", type: "shell" do |s|
+	    s.path = "scripts/ipa-client-install.sh" 
+         end
+      end
+    end
+end	
 

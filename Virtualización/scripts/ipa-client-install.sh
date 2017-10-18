@@ -20,12 +20,22 @@ source /vagrant/scripts/common.sh
 # 1) Comprobamos si ipa-client está instalado, en caso contrario lo instalamos:
 packages="ipa-client"
 # if...
-	yum -y install $packages
+	sudo yum -y install $packages
 #fi
 
 # 2) Comprobamos si el sistema ya es miembro del dominio IPA (mirando si existe
 #   el fichero /etc/ipa/default.com), y en caso contrario lo añadimos al dominio: 
-echo ${PASSWD_ADMIN} | kinit "admin@${DOMINIO_KERBEROS}" 2>/dev/null 1>/dev/null
+
+cd ..
+cd ..
+
+if [[ ! -a '/etc/ipa/default.conf' ]]
+then
+	echo ${PASSWD_ADMIN} | kinit "admin@${DOMINIO_KERBEROS}" 2>/dev/null 1>/dev/null
+	sudo ipa-client-install --principal admin@${DOMINIO_KERBEROS} --password=${PASSWD_ADMIN} --enable-dns-update --mkhomedir --unattended
+else
+	sudo ipa-client-install --principal admin@${DOMINIO_KERBEROS} --password=${PASSWD_ADMIN} --enable-dns-update --mkhomedir --unattended
+fi
 
 #if... Existe el fichero /etc/ipa/default.conf 
 #then

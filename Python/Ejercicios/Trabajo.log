@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.10.4)  9 OCT 2017 12:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.10.4)  9 OCT 2017 14:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,7 +643,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: task2.png Graphic file (type png)
  <use task2.png>
 Package pdftex.def Info: task2.png used on input line 409.
-(pdftex.def)             Requested size: 409.71692pt x 255.12318pt.
+(pdftex.def)             Requested size: 455.24411pt x 283.47307pt.
  [9 <./task2.png>] (./Trabajo.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
@@ -673,7 +673,7 @@ exmf/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti109
 5.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/te
 xmf/fonts/type1/public/cm-super/sfti2074.pfb>
-Output written on Trabajo.pdf (9 pages, 522035 bytes).
+Output written on Trabajo.pdf (9 pages, 522037 bytes).
 PDF statistics:
  128 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
