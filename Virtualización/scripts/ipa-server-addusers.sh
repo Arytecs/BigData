@@ -42,7 +42,7 @@ cd vagrant/scripts/
 
 if [[ ! -a $1 ]]
 then
-	echo "Error: fich_usuarios no existe."
+	echo "Error: el fich_usuarios no existe o no ha sido introducido en 'carpeta del proyecto'/scripts/."
 	exit 1
 fi
 
@@ -87,11 +87,4 @@ do
 done
 
 IFS=$old_IFS
-
-
-
-
-
-
-
 
