@@ -52,7 +52,7 @@ function es_ip () {  #Función para comprobar que la entrada sea una ip de la fo
 
 	if [[ "$?" != 0 ]]
 	then
-		echo "Error: la IP_host es la forma xxx.xxx.xxx.xxx donde las x son números enteros en el intervalo [0-255]."
+		echo "Error: la IP_host es de la forma xxx.xxx.xxx.xxx donde las x son números enteros en el intervalo [0-255]."
 		exit 22
 	fi
 
@@ -62,7 +62,7 @@ function es_ip () {  #Función para comprobar que la entrada sea una ip de la fo
 	echo $aux | egrep '([[:space:]]|[[:punct:]]|[[:alpha:]])' 2>/dev/null 1>/dev/null
 	if [[ "$?" = 0 || $aux -gt 255 ]]
 	then
-		echo "Error: la IP_host es la forma xxx.xxx.xxx.xxx donde las x son números enteros en el intervalo [0-255]."
+		echo "Error: la IP_host es de la forma xxx.xxx.xxx.xxx donde las x son números enteros en el intervalo [0-255]."
 		exit 23
 	fi
 
@@ -70,7 +70,7 @@ function es_ip () {  #Función para comprobar que la entrada sea una ip de la fo
 
 	if [[ "$?" != 0 ]]
 	then
-		echo "Error: la IP_host es la forma xxx.xxx.xxx.xxx donde las x son números enteros en el intervalo [0-255]."
+		echo "Error: la IP_host es de la forma xxx.xxx.xxx.xxx donde las x son números enteros en el intervalo [0-255]."
 		exit 24		
 	fi
 		
@@ -80,7 +80,7 @@ function es_ip () {  #Función para comprobar que la entrada sea una ip de la fo
 	echo $aux | egrep '([[:space:]]|[[:punct:]]|[[:alpha:]])' 2>/dev/null 1>/dev/null
 	if [[ "$?" = 0 || $aux -gt 255 ]]
 	then
-		echo "Error: la IP_host es la forma xxx.xxx.xxx.xxx donde las x son números enteros en el intervalo [0-255]."
+		echo "Error: la IP_host es de la forma xxx.xxx.xxx.xxx donde las x son números enteros en el intervalo [0-255]."
 		exit 25
 	fi
 	
@@ -88,7 +88,7 @@ function es_ip () {  #Función para comprobar que la entrada sea una ip de la fo
 
 	if [[ "$?" != 0 ]]
 	then
-		echo "Error: la IP_host es la forma xxx.xxx.xxx.xxx donde las x son números enteros en el intervalo [0-255]."
+		echo "Error: la IP_host es de la forma xxx.xxx.xxx.xxx donde las x son números enteros en el intervalo [0-255]."
 		exit 26		
 	fi		
 
@@ -98,7 +98,7 @@ function es_ip () {  #Función para comprobar que la entrada sea una ip de la fo
 	echo $aux | egrep '([[:space:]]|[[:punct:]]|[[:alpha:]])' 2>/dev/null 1>/dev/null
 	if [[ "$?" = 0 || $aux -gt 255 ]]
 	then
-		echo "Error: la IP_host es la forma xxx.xxx.xxx.xxx donde las x son números enteros en el intervalo [0-255]."
+		echo "Error: la IP_host es de la forma xxx.xxx.xxx.xxx donde las x son números enteros en el intervalo [0-255]."
 		exit 27
 	fi
 	
@@ -106,12 +106,12 @@ function es_ip () {  #Función para comprobar que la entrada sea una ip de la fo
 
 	if [[ "$?" = 0 || $aux1 -gt 255 ]]
 	then
-		echo "Error: la IP_host es la forma xxx.xxx.xxx.xxx donde las x son números enteros en el intervalo [0-255]."
+		echo "Error: la IP_host es de la forma xxx.xxx.xxx.xxx donde las x son números enteros en el intervalo [0-255]."
 		exit 28
 	fi
 }
 
-es_ip $2  #Aplicamos la función es_ip para comprobar que 
+es_ip $2  #Aplicamos la función es_ip para comprobar que la ip pasada por parámetro, es una ip correcta
 
 nombre_host=$1
 IP_host=$2
@@ -128,7 +128,6 @@ sudo cp /tmp/nuevo-hosts /etc/hosts
 
 # 3) Si se ha especificado un servidor DNS en los parámetros de entrada (IP_DNS), 
 #    entonces reconfigurar el cliente DNS:
-# NOTA: Sólo falta la comprobación
 
 if [ $3 ]
 then

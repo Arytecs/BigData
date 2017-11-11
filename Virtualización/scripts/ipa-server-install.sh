@@ -66,9 +66,6 @@ then
 	sudo yum -y install ipa-server-dns
 fi
 
-#packages="ipa-server bind bind-dyndb-ldap ipa-server-dns"
-
-#sudo yum -y install $packages
 
 # 2) Comprobamos si el dominio IPA está creado (solicitando un tique kerberos para
 #    el administrador), y en caso contrario lo creamos:
