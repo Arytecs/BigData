@@ -1,0 +1,204 @@
+\documentclass[12pt,twoside]{article}
+
+% La extensión total de la memoria deberá ser de un máximo de 50 páginas (excluidos resumen, índice y posibles anexos).
+
+% Según las recomendaciones de estilo, el formato de la memoria se ajustará a lo siguiente:
+% ? Formato del papel: DIN A4.
+% ? Impresión a dos caras.
+% ? Márgenes: superior e inferior, 2.5 cm. Márgenes laterales: páginas impares, izquierdo 4 cm y derecho 2 cm; páginas % pares, izquierdo 2 cm y derecho 4 cm.
+% ? Tipo de letra: Times New Roman de 12 puntos.
+% ? Interlineado: 1.5 líneas.
+% ? Alineación: justificación completa.
+% ? Sangrado de párrafo: 0.5 cm la primera línea de cada párrafo. No se
+%pondrá espacio entre párrafos.
+% ? Las páginas deberán ir numeradas en números arábigos.
+
+% Teniendo en cuenta las indicaciones previas, definimos el estilo en LaTeX:
+
+% Indicaciones para el idioma:
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{float}
+
+% Adaptación de itemize y enumerate a los usos tipograficos españoles:
+\let\layoutspanish\relax
+\addto\captionsspanish{\def\tablename{Tabla}} % para que escriba "Tabla" en lugar de "Cuadro"
+\unaccentedoperators  % para que no acentúe los operadores
+
+% Área de impresión de una página:
+\usepackage[a4paper]{geometry}
+  \geometry{hmargin={2.5cm,2.5cm},height=22cm}
+
+% Formato de algunas distancias:
+\renewcommand{\baselinestretch}{1.2}    % separación entre líneas de un mismo párrafo
+\setlength{\partopsep}{0pt}
+\setlength{\itemsep}{0pt}
+\setlength{\topsep}{0pt}
+\setlength{\parsep}{0pt}
+\setlength{\parskip}{0.25\baselineskip}   % separación entre párrafos
+
+\renewcommand{\textfraction}{0.1}   % mínima fracción de la página para el texto
+\renewcommand{\topfraction}{1}      % máxima fracción de la página para objetos flotantes en la parte superior
+\renewcommand{\bottomfraction}{1}
+\renewcommand{\floatpagefraction}{1}
+
+\setcounter{totalnumber}{5}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}
+
+% Adaptación de las "caption" de los entorns "figure" y "table":
+\usepackage{caption}
+\setcaptionwidth{\textwidth}
+\addtolength{\captionwidth}{-2\parindent}
+\captionsetup{margin=\leftmargini,%
+  width=\captionwidth,%
+  labelfont={up,bf},%
+  font={small,sl},%
+  %indention={\captionindent
+}
+
+% Indentación del primer párrafo de una sección:
+\usepackage{indentfirst}
+
+% Definición del color grisclaro en la salida PDF:
+\usepackage[pdftex]{color}
+
+% Gráficos:
+\usepackage[pdftex]{graphicx}
+
+% Paquetes recomendados para la inclusión de fórmulas matemáticas:
+\usepackage{amsmath}
+\allowdisplaybreaks  % para que pueda partir fórmulas que ocupan más de una línea, necesita el paquete anterior
+\usepackage{amssymb} % para cargar algunos símbolos como \blacksquare y \square
+\usepackage{amsfonts} % para cargar algunas fuentes en estilo matemático
+\usepackage{enumerate}
+\usepackage{listings}
+
+% Teoremas (se pueden definir todos los que se necesiten):
+
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{proposition}[theorem]{Proposición}
+\newtheorem{definition}[theorem]{Definición}
+\newtheorem{lemma}[theorem]{Lema}
+\newtheorem{corollary}[theorem]{Corolario}
+\newtheorem{example}[theorem]{Ejemplo}
+\newtheorem{app}[theorem]{Aplicación}
+\newtheorem{remark}[theorem]{Observación}
+\newtheorem{agrad}[theorem]{Agradecimiento}
+\newtheorem{algo}[theorem]{Algoritmo}
+\newtheorem{axiom}[theorem]{Axioma}
+\newtheorem{case}[theorem]{Caso}
+\newtheorem{conclu}[theorem]{Conclusión}
+\newtheorem{conjectura}[theorem]{Conjetura}
+\newtheorem{notac}[theorem]{Notación}
+\newtheorem{soluc}[theorem]{Solución}
+\newtheorem{summary}[theorem]{Sumario}
+
+
+\newtheorem{proof}[theorem]{Demostración.}
+\renewenvironment{proof}{\emph{Demostración.}} {\quad \hfill $\blacksquare$ \newline} % para que aparezca un cuadrado negro al acabar la demostración
+
+
+% Definición de cabeceras y pies de página:
+
+\usepackage{fancyhdr}                     % para definir distintos tipos de cabeceras y pies de página
+
+\newcommand{\RunningAuthor}{Jose Joaquín Rodríguez García y Araceli Teruel Domenech}
+\newcommand{\Author}[1]{\renewcommand{\RunningAuthor}{#1}}
+\renewcommand{\leftmark}{\RunningAuthor}
+
+\newcommand{\RunningTitle}{Práctica 3 Introducción al Aprendizaje Automático}
+\newcommand{\Title}[1]{\renewcommand{\RunningTitle}{#1}}
+\renewcommand{\rightmark}{\RunningTitle}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LO]{\small \slshape \leftmark}    % lo que aparece en la parte izquierda de la páginas impares
+\fancyhead[RE]{\small \slshape \rightmark}   % lo que aparece en la parte derecha de las páginas pares
+\fancyhead[RO,LE]{\small \slshape \thepage}  % el número de página aparece en la parte exterior de la cabecera
+
+\renewcommand{\headrulewidth}{0.6pt}         % grueso de la línea horizontal por debajo de la cabecera de la página
+\renewcommand{\footrulewidth}{0pt}           % grueso de la línea horizontal por encima del pie de página
+                                             % en este caso está vacío
+\setlength{\headheight}{1.5\headheight}      % aumenta la altura de la cabecera en una parte y media
+
+\fancypagestyle{plain}{%                     % redefinición del estilo de página 'plain'
+  \fancyhf{}                                 % limpia todas las cabeceras y pies de página
+  \setlength{\headwidth}{\textwidth}
+  \fancyfoot[C]{\small \slshape \thepage}    % excepto el centro del pie de página
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+  }
+
+% Instrucciones que se usan frecuentemente
+\newcommand{\abs}[1]{\ensuremath{|#1|}}
+
+% Datos del trabajo y autor:
+\title{Práctica 4 Introducción al Aprendizaje Automático}
+\author{Jose Joaquín Rodríguez García y Araceli Teruel Domenech\\*[1em]
+\begin{minipage}{0.75\textwidth}
+\footnotesize \itshape
+\begin{center}
+Universidad Politécnica de Valencia \\
+Master en Big Data Analytics
+\end{center}
+\end{minipage}
+}
+\date{Octubre 2017}
+
+% Para incluir paginas de otro pdf (por ejemplo, la de la portada):
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+
+\begin{document}
+
+\maketitle
+
+
+\section{Primera Tarea}
+
+\subsection{Enunciado}
+
+\noindent
+A partir del código desarrollado en la práctica anterior, quitar el bucle de validación cruzada y añadir el código para dividir el training set en tantos subconjuntos como clases se sepa existen en el training set.
+
+
+\subsection{Resolución}
+Quitamos el bucle de validación cruzada y dividimos el training set en tantos subconjuntos como clases se sepa que existen en el training set, en este caso hay 10 subconjuntos
+
+
+\section{Segunda Tarea}
+
+\subsection{Enunciado}
+
+\noindent
+Crear una lista de objetos de la clase sklearn.mixture.GMM para obtener un GMM por cada clase. En principio utilizad 10 componentes por cada GMM. Añadid el código correspondiente para calcular la densidad de probabilidad de una clase a partir de las densidades de probabilidad de cada muestra con respecto a cada componente del GMM de cada clase. 
+p(xn; Ck) = p(Ck)
+XJ
+j=1
+p(j) p(xn j j)
+donde J es el número de componentes en el GMM de cada clase, y j es el índice que identifica cada componente. ¿Qué función de la clase sklearn.mixture.GMM debe utilizarse para obtener las densidades? Mirad el manual de la clase GMM en la documentación del Scikit-Learn. ¿Puede que sea el método score()? Ojo que muchas funciones devuelven el logaritmo de la densidad de probabilidad. ¿Hace falta añadir las probabilidades a priori de cada componente dentro de cada GMM? ¿Dónde está dicha información en el objeto de la clase GMM? ¿O viene ya calculada por la función que utilizamos?
+
+
+\subsection{Resolución}
+La función que se usa para obtener las densidades es \textit{score()} encontrada en la clase sklearn.mixture.GMM. El método \textit{score()} lo que calcula es el logaritmo de las densidades de cada punto en X. El método \textit{score\_samples()} lo que calcula es el logaritmo las probabilidades, por lo que usando esta función no necesitaremos calcularlas previamente.
+
+\section{Tercera Tarea}
+
+\subsection{Enunciado}
+\noindent
+Una vez resuelta la tarea 2, realizad un barrido para ver el efecto de variar los siguientes hiper-parámetros:
+el número de componentes de cada GMM
+el número de componentes para representar cada muestra aplicando PCA, y
+el tipo de matriz de varianzas-covarianzas.
+Se debe ir complentando la tabla que se comentó en prácticas anteriores para ver la precisión que puede alcanzarse modificando los hiper-parámetros que afectan al comportamiento de cada técnica.
+
+\subsection{Resolución}
+
+
+
+
+\end{document} 

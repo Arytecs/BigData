@@ -1,0 +1,1136 @@
+Loading ... 
+Transforming  ... 
+---------------------
+Components number: 20
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.6%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.9%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+501 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 21
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.9%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.9%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.0%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 93.7%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+498 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 22
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.6%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+498 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 23
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 93.8%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.6%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.6%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+
+Accuracy in average = 94.4%
+
+Predicting  ... 
+501 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 24
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 95.0%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 93.8%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.9%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+499 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 25
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.9%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.1%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+492 muestras mal clasificadas de 10000
+Accuracy = 95.1%
+---------------------
+Components number: 26
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.1%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 93.8%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.9%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.6%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.6%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+501 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 27
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.9%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+500 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 28
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 93.9%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 95.2%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.1%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+501 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 29
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 95.1%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 95.0%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.0%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+502 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 30
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 93.8%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 95.1%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.0%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 93.8%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 95.0%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.6%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+501 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 31
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.1%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.9%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+498 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 32
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 95.0%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 93.8%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.6%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+499 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 33
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.0%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.6%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.1%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.9%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.6%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+498 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 34
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 93.8%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 95.0%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.6%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+502 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 35
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.9%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.9%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.1%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.0%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+498 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 36
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.6%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.1%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 95.1%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 93.7%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+498 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 37
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.0%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.0%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 95.1%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+505 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 38
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.2%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.6%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+502 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 39
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 93.8%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 95.0%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.6%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 93.8%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 95.0%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.4%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+497 muestras mal clasificadas de 10000
+Accuracy = 95.0%
+---------------------
+Components number: 40
+[ 1010.49400459  -289.96363535   576.12065297  -485.08351148  -841.47775568
+  -145.46648814   -48.34882149  -102.25172938    34.79781321   151.35330998
+  -282.71746619  -110.31981953  -330.18576515    96.90176951   226.54232463
+  -157.83247513   -46.46082198    41.12136256    68.75602684  -122.60579763]
+Shuffling  ... 
+Learning  ... 
+		Cross validation trial 01 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 95.0%
+		Cross validation trial 02 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 03 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 04 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.6%
+		Cross validation trial 05 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.7%
+		Cross validation trial 06 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.5%
+		Cross validation trial 07 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.1%
+		Cross validation trial 08 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+		Cross validation trial 09 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.8%
+		Cross validation trial 10 ... 
+(54000, 20)
+(6000, 20)
+		Accuracy = 94.3%
+
+Accuracy in average = 94.5%
+
+Predicting  ... 
+501 muestras mal clasificadas de 10000
+Accuracy = 95.0%

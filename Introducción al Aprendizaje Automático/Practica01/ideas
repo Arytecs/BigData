@@ -1,0 +1,46 @@
+Ary
+- Primera prueba, vemos que a partir de grado 6 se dispara el error.
+- Error más minimizado con grado 2 o 3 normalmente
+Error polynomial (0) =      0.9219945648      0.9960970914
+Error polynomial (1) =      0.4936749099      0.6177778890
+Error polynomial (2) =      0.5450437848      0.6702108820
+Error polynomial (3) =      0.2989442213      0.3634789244
+Error polynomial (4) =      0.3107381845      0.3256563592
+Error polynomial (5) =      0.3302055420      0.4129573740
+Error polynomial (6) =      0.3803304281      0.6843706044
+Error polynomial (7) =      0.3949746421      1.5190348811
+Error polynomial (8) =      0.3949746421      1.3099085292
+Error polynomial (9) =      0.3949746421      1.2993806925
+Error polynomial (10) =      0.3949746421      1.3732970021
+Error polynomial (11) =      0.3949746421      1.4889400209
+Error polynomial (12) =      0.3949746421      1.6310844329
+Tarea 2
+-Con 12 muestras minimizamos el error
+Error polynomial (0) =      0.8714506325      0.9887761760
+Error polynomial (1) =      0.2928222827      1.0241844560
+Error polynomial (2) =      0.2972960787      1.0927037501
+Error polynomial (3) =      0.1281041326      0.4765041107
+Error polynomial (4) =      0.1703126439      2.5498894298
+Error polynomial (5) =      0.2195430903     20.9823271868
+Error polynomial (6) =      0.2218902498     21.2461017058
+Error polynomial (7) =      0.2856908317   1194.8549693596
+Error polynomial (8) =      0.2865477110    742.7859434338
+Error polynomial (9) =      0.3008998181  80985.9146427395
+Error polynomial (10) =      0.3027440851 415255.2246839019
+Error polynomial (11) =      0.3049666456 8494004.5030790027
+Error polynomial (12) =      0.3049362976 7032125.4498595744
+-Con 100 muestras
+Error polynomial (0) =      1.0161232849      1.0258918035
+Error polynomial (1) =      0.6153658545      0.6098415683
+Error polynomial (2) =      0.6039837375      0.6196800175
+Error polynomial (3) =      0.0949196203      0.0975698532
+Error polynomial (4) =      0.0940610483      0.1013301458
+Error polynomial (5) =      0.0515687835      0.0539943665
+Error polynomial (6) =      0.0562593231      0.0560777644
+Error polynomial (7) =      0.0563399009      0.0557520758
+Error polynomial (8) =      0.0660377287      0.0653213705
+Error polynomial (9) =      0.1071272129      0.1236880436
+Error polynomial (10) =      0.1074033424      0.1258748464
+Error polynomial (11) =      0.1081532452      0.1283897546
+Error polynomial (12) =      0.1081886714      0.1286811707
+
